@@ -1,0 +1,21 @@
+{
+  "name": "virtual-pet",
+  "version": "1.0.0",
+  "description": "virtual pet",
+  "main": "index.js",
+  "scripts": {
+    "jest": "npm test -- virtualPet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "virtual-pet"
+  },
+  "keywords": [
+    "virtualpet"
+  ],
+  "author": "Chrissyelwes",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
