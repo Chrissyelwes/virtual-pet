@@ -4,7 +4,7 @@
   "description": "virtual pet",
   "main": "index.js",
   "scripts": {
-    "jest": "npm test -- virtualPet"
+    "test": "Jest"
   },
   "repository": {
     "type": "git",
