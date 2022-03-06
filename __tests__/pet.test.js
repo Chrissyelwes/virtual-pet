@@ -25,10 +25,29 @@ describe('growUp', () => {
         pet.growUp();
         expect(pet.hunger).toEqual(5);
     });
-    it('decreses fitness by 3', () => {
+    it('decreases fitness by 3', () => {
         const pet = new Pet('Cat');
         pet.growUp();
         expect(pet.fitness).toEqual(7);
+    });
+});
+
+describe('walk', () => {
+    it('increases fitness by 4', () => {
+        const pet = new Pet('Cat');
+
+        pet.fitness = 4;
+        pet.walk();
+
+        expect(pet.fitness).toEqual(8);
+    });
+    it('increases fitness by to a maximum of 10', () => {
+        const pet = new Pet('Cat');
+
+        pet.fitness = 8;
+        pet.walk();
+
+        expect(pet.fitness).toEqual(10);
     });
 });
 
