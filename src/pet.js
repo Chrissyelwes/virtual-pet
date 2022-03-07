@@ -16,6 +16,10 @@ function Pet(name) {
     } else {
         this.fitness = 10;
     };
+
+    Pet.prototype.feed = function() {
+        this.hunger -= 3;
+    };
 };
 };
 

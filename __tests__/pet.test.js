@@ -51,3 +51,14 @@ describe('walk', () => {
     });
 });
 
+describe('feed', () => {
+    it('decreases hunger level by 3', () => {
+        const pet = new Pet('Cat');
+        
+        pet.hunger = 5;
+        pet.feed();
+
+        expect(pet.hunger).toEqual(2);
+    });
+});
+
