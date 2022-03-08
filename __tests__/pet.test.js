@@ -52,13 +52,40 @@ describe('walk', () => {
 });
 
 describe('feed', () => {
-    it('decreases hunger level by 3', () => {
+    it('decreases hunger level by 3 with minimum of 0', () => {
         const pet = new Pet('Cat');
         
         pet.hunger = 5;
         pet.feed();
 
         expect(pet.hunger).toEqual(2);
+
+        pet.feed();
+        expect(pet.hunger).toEqual(0);
     });
+
+describe('checkUp', () => {
+    it('lets you know how the pet is feeling', () => {
+        const pet = new Pet ('Cat');
+
+        pet.age = 0;
+        pet.hunger = 0;
+        pet.fitness = 10;
+        expect(pet.checkUp()).toEqual("I feel great!");
+
+        pet.hunger = 5;
+        expect(pet.checkUp()).toEqual("I am hungry");
+
+        pet.fitness = 3;
+        pet.hunger = 2;
+        expect(pet.checkUp()).toEqual("I need a walk");
+
+        pet.hunger = 6;
+        pet.fitness = 2;
+        expect(pet.checkUp()).toEqual("I am hungry AND I need a walk");
+
+    });
+})
+
 });
 
