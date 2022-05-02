@@ -14,7 +14,7 @@ function Pet(name) {
     this.growUp = function() {
         if(!this.isAlive) {
             throw new Error('Your pet is no longer alive :(');
-        }
+        };
         this.age += 1;
         this.hunger += HUNGER_THRESHOLD;
         this.fitness -= FITNESS_THRESHOLD;
