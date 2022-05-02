@@ -1,24 +1,16 @@
-Virtual Pet
-Real pets are great, but they do have drawbacks. They smell. Your mum might be allergic to them. Maybe you just aren't allowed one in your flat.
+# :dog: VIRTUAL PET :cat:
+A project that applies Javascript into a virtual pet. It ages, it gets hungry, tired and, die. 
 
-To solve these problems, we're going to make our own JavaScript pets.
+From [Manchester Codes](https://www.manchestercodes.com/?utm_source=google&utm_medium=cpc&utm_campaign=973925948&utm_content=nocsdegree_Matt&utm_term=manchester%20codes&utm_term=manchester%20codes&utm_campaign=Sep+21+-+Brand+Campaign&utm_source=adwords&utm_medium=ppc&hsa_acc=4219584815&hsa_cam=973925948&hsa_grp=51195941914&hsa_ad=395486348780&hsa_src=g&hsa_tgt=aud-1170118835214:kwd-380100275891&hsa_kw=manchester%20codes&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=CjwKCAjwgr6TBhAGEiwA3aVuIcdO0_D7Lg4Ig9TGkcehWDN0yCzw2ANDmh5m4TzfMPSSWMuOD0UZDRoCkbEQAvD_BwE) Software Engineering Fast Track Programme.
 
-JavaScript pets are great. Because they're made of JavaScript, they can do literally anything, and they don't have any of the drawbacks of regular pets. They don't even pee or poo 💩 (unless you program them too, you weirdo).
+# TECHNOLOGIES
+* Javascript
+* Node
 
-The pets we're going to make will have the following features:
+# ROADMAP
+- [ ] Add HTML and CSS UI
+- [ ] Add animations
+- [ ] Add sounds
 
-You can give them a name
-
-They can get older
-
-As they get older, they get hungrier and less fit
-
-You can walk your pet to increase it's fitness. 🏃‍♂️
-
-You can feed your pet to decrease it's hunger. 🍕
-
-You can talk to your pet to see if it needs feeding or walking
-
-If your pet gets too hungry or unfit, it will DIE 💀
-
-If your pet gets to 30 days old it will DIE 😢
+# PROJECT STATUS
+Active!
